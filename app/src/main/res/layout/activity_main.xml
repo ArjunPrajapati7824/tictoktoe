@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:id="@+id/RLRoot"
+    android:background="#F8F6F2"
+
+    >
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:id="@+id/GLmain"
+        >
+
+
+    <Button
+        android:layout_marginRight="20dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/btn1"
+        android:backgroundTint="#0C0C0C"
+        android:onClick="check_notation"
+
+        />
+    <Button
+        android:layout_marginRight="20dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/btn2"
+        android:backgroundTint="#0C0C0C"
+        android:onClick="check_notation"
+
+        />
+    <Button
+        android:textSize="40dp"
+        android:backgroundTint="#0C0C0C"
+        android:textStyle="bold"
+        android:id="@+id/btn3"
+        android:onClick="check_notation"
+        />
+    <Button
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/btn4"
+        android:onClick="check_notation"
+        android:backgroundTint="#0C0C0C"
+
+        />
+    <Button
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/btn5"
+        android:onClick="check_notation"
+        android:backgroundTint="#0C0C0C"
+
+
+        />
+    <Button
+
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/btn6"
+        android:onClick="check_notation"
+        android:backgroundTint="#0C0C0C"
+
+        />
+    <Button
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/btn7"
+        android:onClick="check_notation"
+        android:backgroundTint="#0C0C0C"
+
+        />
+    <Button
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/btn8"
+        android:onClick="check_notation"
+        android:backgroundTint="#0C0C0C"
+
+        />
+    <Button
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/btn9"
+        android:onClick="check_notation"
+        android:backgroundTint="#0C0C0C"
+
+        />
+
+
+
+    </GridLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TicTokToe"
+        android:id="@+id/txtResult"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:paddingTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/GLmain"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 1 Move"
+        android:id="@+id/txtResult1"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_below="@+id/txtResult"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:padding="20dp"
+
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn10Restart"
+        android:layout_below="@+id/txtResult1"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:text="New Game"
+        android:textAllCaps="false"
+        android:backgroundTint="#47AC40"
+        android:onClick="onClick"
+
+        />
+
+
+
+</RelativeLayout>
