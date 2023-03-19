@@ -10,6 +10,7 @@
     tools:context=".Splash">
 
     <ImageView
+        android:id="@+id/imgsplash"
         android:layout_width="wrap_content"
         android:layout_height="267dp"
         android:src="@drawable/tic_tac_toe">

@@ -12,6 +12,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     int flag=0;
     int count=0;
 
+
+
     //Animation scale= AnimationUtils.loadAnimation(MainActivity.this,R.anim.scale);
 
 
@@ -33,10 +36,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 //        Intent inextthis = new Intent(MainActivity.this,MainActivity.class);
     initialize();
-
-
-
-
 
     }
 
